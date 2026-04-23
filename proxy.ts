@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 const PRIVATE_PATHS = ["/dashboard", "/messages", "/grc", "/settings", "/invest"];
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const accessToken = request.cookies.get("ps_access_token")?.value;
   const { pathname } = request.nextUrl;
 

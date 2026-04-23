@@ -4,7 +4,7 @@
   "private": true,
   "description": "PropSocial secure, trust-first frontend platform",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=20.19.0 <24"
   },
   "scripts": {
     "dev": "next dev",
@@ -22,9 +22,9 @@
     "clsx": "latest",
     "jwt-decode": "latest",
     "lucide-react": "latest",
-    "next": "15.5.2",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "next": "16.2.4",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
     "react-hook-form": "latest",
     "sonner": "latest",
     "tailwind-merge": "latest",
@@ -38,7 +38,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "eslint": "latest",
-    "eslint-config-next": "15.5.2",
+    "eslint-config-next": "16.2.4",
     "tailwindcss": "4.1.12",
     "typescript": "latest"
   }
