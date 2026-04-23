@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #111827;
+  --background: #0b1f3a;
+  --foreground: #f59e0b;
   --color-primary-900: #0b1f3a;
   --color-primary-700: #1e3a5f;
   --color-secondary-green-500: #10b981;
@@ -35,6 +35,27 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Theme override: force deep-blue surfaces and gold text across utility-based classes. */
+.bg-white,
+.bg-slate-50,
+.bg-slate-100 {
+  background-color: #102848 !important;
+}
+
+.text-white,
+.text-slate-900,
+.text-slate-800,
+.text-slate-700,
+.text-slate-600,
+.text-slate-500,
+.text-blue-100,
+.text-blue-200,
+.text-emerald-600,
+.text-red-600,
+.text-amber-500 {
+  color: var(--foreground) !important;
 }
 
 body.high-contrast {
