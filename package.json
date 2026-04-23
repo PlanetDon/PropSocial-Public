@@ -1,0 +1,45 @@
+{
+  "name": "propsocial-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PropSocial secure, trust-first frontend platform",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "latest",
+    "@hookform/resolvers": "latest",
+    "@tanstack/react-query": "latest",
+    "@tanstack/react-query-devtools": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "jwt-decode": "latest",
+    "lucide-react": "latest",
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-hook-form": "latest",
+    "sonner": "latest",
+    "tailwind-merge": "latest",
+    "zod": "latest",
+    "zustand": "latest"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "latest",
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "4.1.12",
+    "typescript": "latest"
+  }
+}
